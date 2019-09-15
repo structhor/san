@@ -28,6 +28,16 @@ var markdownTable = `
 |       |       |       |       |       |
 
 `;
+
+//Each line is decomposed
+var arr = inText.Split(".");
+var result = `|       |       |       |       |       |
+|  ---  |  ---  |  ---  |  ---  |  ---  |
+`;
+var c = 1;
+//foreach arr oline
+var l = `|  ${c++}     |       | ${oline}      |       |       |`;
+result += l + "\n";
 ```
 
 ## var sampleResult__markdownTable =
