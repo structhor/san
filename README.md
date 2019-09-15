@@ -58,9 +58,9 @@ var markdownTable = `
 |   3    |  Clarification     | What are the upstream departments?       |       |       |
 |   3.1    |       |       |       |       |
 |   4    |       |        | The Houdini Pipeline Developer’s perspective is high level and forward looking.      |       |
-|   4.1    |       |  What do they mean by high level?     |       |       |
+|   4.1    |   Clarification    |  What do they mean by high level?     |       |       |
 |   4.1    |       |       |       |       |
-|   4.2    |       | What do they mean by forward looking?      |       |       |
+|   4.2    |   Clarification    | What do they mean by forward looking?      |       |       |
 |   4.2    |       |       |       |       |
 |   5    |       |       | Demonstrated ability to prioritize, partner and implement new and improved technologies, the Houdini Pipeline Developer has advanced skills with Houdini, Python and C++ required for research, development and mentoring others.      |       |
 |   7    |  Implication     |  What is important is the ability to recognize what is dominant in the action todo?     |       |       |
