@@ -67,4 +67,4 @@ var markdownTable = `
 |   7    |       |       |       |       |
 |   7.1    |       |       |       |       |
 |   8    |       |       | The Houdini Pipeline Developer will be required to work with FX artists to design and implement tools to effectively move assets between 3DS Max and Houdini, improve the efficiency of our FX workflow, and ensure accurate output in ways that mesh well with current tools and workflows.      |       |
-|   8.1    |   Info    |       |   What does that imply?    |       |
+|   8.1    |   Info    |    What does moving assets imply?   |       |       |
