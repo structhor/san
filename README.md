@@ -6,7 +6,8 @@ SAN is for Structural Analysis
 * --@stcgoal Creates an analysis form from a text.
 * --@stcissue Perspective to analyze textual information is not pictural.
 
-
+## Reference
+* Interested in knowing more about structural thinking will have a look at [Robert Fritz's Video + MMOT](http://guillaumeisabelle.com/r/structhor/san/README/ref)
 
 ## Pseudo var & code
 
