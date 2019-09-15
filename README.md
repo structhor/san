@@ -11,6 +11,7 @@ SAN is for Structural Analysis
 * A [SimpleNote publishing describe complementary info](http://simp.ly/p/pxBCwZ)
 
 ## Pseudo var & code
+* see [pseudo.js](pseudo.js)
 
 ```nodejs
 //Sample
