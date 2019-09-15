@@ -40,7 +40,9 @@ var markdownTable = `
 
 ## Analyzing
 ### --@STCGoal Then, what is the goal of the analysis grid ?
-* 
+* Know what it is about?
+* A tool for learning, questionning using a well organize and simple structure
+
 
 ### State: Ready for working with the sampleResult__markdownTable =
 
