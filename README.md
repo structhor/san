@@ -1,10 +1,31 @@
 # san
 SAN is for Structural Analysis
 
-## --@jgwill san decomposer tool
+## --@jgwill san Analysis decomposer tool
 
 * --@stcgoal Creates an analysis form from a text.
 * --@stcissue Perspective to analyze textual information is not pictural.
+
+## Prototype
+* see: [prototype.js](prototype.js)
+```sh
+node prototype.js "Reporting to Pipeline Leadership, the Houdini Pipeline Developer will be developing tools and workflows to allow FX artists t
+o efficiently move assets from upstream departments into Houdini, and integrate the resulting simulations into final shots "
+
+## OUTPUT
+
+# Reporting to Pipeline Leadership
+
+|No     |QT     |Questions      |Statement      |       Notes   |
+| ---   | ---   | ---           |       ---     |       ---     |
+|1      |       |               |Reporting to Pipeline Leadership       |       |
+|1.1    |       |               |       |       |
+|2      |       |               | the Houdini Pipeline Developer will be developing tools and workflows to allow FX artists to efficiently move assets from upstream departments into Houdini      |       |
+|2.1    |       |               |       |       |
+|3      |       |               | and integrate the resulting simulations into final shots      |       |
+|3.1    |       |               |       |       |
+
+```
 
 ## Reference
 * Interested in knowing more about structural thinking will have a look at [Robert Fritz's Video + MMOT](http://guillaumeisabelle.com/r/structhor/san/README/ref)
