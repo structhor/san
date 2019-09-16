@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 //--@STCGoal pseudo giving a draft of the markdown table
 console.log(`
 --------------------------------------------------
