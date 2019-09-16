@@ -10,7 +10,7 @@ based on : Robert & Rosalind Fritz's work.
 var debug = false;
 
 for (let j = 0; j < process.argv.length; j++) {
-    if (j>0)
+    if (j>1)
         {
             var iText = process.argv[j];
            if (debug) console.log(j + ' -> ' + iText);
@@ -35,6 +35,11 @@ var markdownTable = `
 |       |       |       |       |       |
 
 `;
+
+/**
+ * Make the Structural Analysis Markdown table 
+ * @param {*} inText 
+ */
 function makeSanV1(inText)
 {
 
@@ -69,7 +74,7 @@ function makeSanV1(inText)
             result = r + "\n";
         } //@result Out header for the part is created.
 
-        if (oline.length > 3)
+        if (oline.length > 2)
             result += l.trim() + "\n" + l2.trim() + "\n";
 
         c++;
