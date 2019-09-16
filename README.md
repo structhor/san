@@ -1,5 +1,5 @@
-# san
-SAN is for Structural Analysis
+# gisan
+(gi) SAN is for Structural Analysis
 
 ## --@jgwill san Analysis decomposer tool
 
