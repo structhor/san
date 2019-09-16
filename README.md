@@ -6,6 +6,16 @@ SAN is for Structural Analysis
 * --@stcgoal Creates an analysis form from a text.
 * --@stcissue Perspective to analyze textual information is not pictural.
 
+## Install 
+```sh
+npm install gisan --save
+```
+## Usage
+```sh
+node node_modules/gisan/prototype.js "my text"
+node node_modules/gisan/prototype.js "my text" "my other text"
+```
+
 ## Prototype
 * see: [prototype.js](prototype.js)
 ```sh
