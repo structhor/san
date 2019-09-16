@@ -10,7 +10,7 @@ based on : Robert & Rosalind Fritz's work.
 var debug = false;
 
 for (let j = 0; j < process.argv.length; j++) {
-    if (j>1)
+    if (j>0)
         {
             var iText = process.argv[j];
            if (debug) console.log(j + ' -> ' + iText);

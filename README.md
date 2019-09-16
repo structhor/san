@@ -8,18 +8,18 @@ SAN is for Structural Analysis
 
 ## Install 
 ```sh
-npm install gisan --save
+npm install --g gisan 
 ```
 ## Usage
 ```sh
-node node_modules/gisan/prototype.js "my text"
-node node_modules/gisan/prototype.js "my text" "my other text"
+gisan "my text"
+gisan "my text" "my other text"
 ```
 
 ## Prototype
 * see: [prototype.js](prototype.js)
 ```sh
-node prototype.js "Reporting to Pipeline Leadership, the Houdini Pipeline Developer will be developing tools and workflows to allow FX artists t
+gisan "Reporting to Pipeline Leadership, the Houdini Pipeline Developer will be developing tools and workflows to allow FX artists t
 o efficiently move assets from upstream departments into Houdini, and integrate the resulting simulations into final shots "
 
 ## OUTPUT
