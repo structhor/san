@@ -64,7 +64,8 @@ function makeSanV1(inText)
 
     var c = 1;
     //foreach arr oline
-    arr.forEach(oline => {
+    arr.forEach(sourceline => {
+        var oline = sourceline.replaceAll("\n"," ").replaceAll("\r", " ");
         
         var l = `|${c}\t|\t|\t\t|${oline}\t|\t|`;
         var l2 = `|${c}.1\t|\t|\t\t|\t|\t|`;
@@ -91,3 +92,13 @@ if (debug )
     
     console.log(res);
 }
+
+
+
+
+//
+
+String.prototype.replaceAll = function(search, replacement) {
+    var target = this;
+    return target.replace(new RegExp(search, 'g'), replacement);
+};
