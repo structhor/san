@@ -1,6 +1,6 @@
 {
   "name": "gisan",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "@stcgoal Creates an analysis form from a text. --@stcissue Perspective to analyze textual information is not pictural.",
   "main": "prototype.js",
   "scripts": {
