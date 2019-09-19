@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/structhor/san/issues"
   },
-  "homepage": "https://github.com/structhor/san#readme"
+  "homepage": "https://github.com/structhor/san#readme",
+  "dependencies": {
+    "gixstr": "^1.0.1"
+  }
 }

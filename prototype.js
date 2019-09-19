@@ -7,6 +7,8 @@ by: Guillaume Descoteaux-Isabelle,2019
 based on : Robert & Rosalind Fritz's work.
 -------------------------------------------------
 `);
+var gixstr = require('gixstr');
+
 var debug = false;
 
 for (let j = 0; j < process.argv.length; j++) {
@@ -65,7 +67,8 @@ function makeSanV1(inText)
     var c = 1;
     //foreach arr oline
     arr.forEach(sourceline => {
-        var oline = sourceline.replaceAll("\n"," ").replaceAll("\r", " ");
+        var tmp = "" + sourceline;
+        var oline = tmp.replaceAll("\n"," ").replaceAll("\r", " ").replaceAll("\\“","“").replaceAll("\\”","”").replaceAll("\\\"","\"");
         
         var l = `|${c}\t|\t|\t\t|${oline}\t|\t|`;
         var l2 = `|${c}.1\t|\t|\t\t|\t|\t|`;
@@ -97,8 +100,3 @@ if (debug )
 
 
 //
-
-String.prototype.replaceAll = function(search, replacement) {
-    var target = this;
-    return target.replace(new RegExp(search, 'g'), replacement);
-};
